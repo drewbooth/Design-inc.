@@ -1,0 +1,49 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body{
+    margin: 0 auto;
+    color: #FA9A2A;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+display: flex;
+flex-direction: column;
+}
+
+header h2{
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.nav p{
+display: inline-block;
+text-decoration: underline;
+color: rgb(97, 95, 93);
+}
+
+/*Main*/
+main{
+}
+
+.welcome{
+    height: 400px;
+    background-image: url(/resources/images/jazmin-quaynor-18mUXUS8ksI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
